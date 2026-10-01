@@ -1,0 +1,18 @@
+{
+  "version": "0.9.0",
+  "kind": "app",
+  "released": "2026-09-24",
+  "minVersion": "0.9.0",
+  "payload": "payloads/0.9.0.bin",
+  "sha256": "1d36fb2b0dffe0ce10434a14065cb77b845b2ba22e39b3417ae7527573a9bffb",
+  "size": 2308749,
+  "notes": [
+    "Update from inside the app — this is the first version that can.",
+    "Browse buttons on every folder field.",
+    "Saved database connections, chosen per run and per task.",
+    "Report a problem and a shared learnings shelf (with the Bug Fixer).",
+    "The gate now sits over the transcript and can be minimised.",
+    "Wiki set: an Explained Simply page and red-boxed screenshots of what is new.",
+    "No \"Generated with Claude Code\" in PRs; one HRM-DB script, no _dap copies."
+  ]
+}
