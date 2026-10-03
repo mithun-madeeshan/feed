@@ -1,16 +1,13 @@
 {
-  "version": "0.11.0",
+  "version": "0.11.1",
   "kind": "app",
   "released": "2026-10-03",
   "minVersion": "0.9.0",
-  "payload": "payloads/0.11.0.bin",
-  "sha256": "e1823f383dc3f73ee032938997996b9945cc31ff8361922100df98ddc06d84a3",
-  "size": 1691560,
+  "payload": "payloads/0.11.1.bin",
+  "sha256": "08df0ea0ad7f7601009aa34c859dc02b3ec4cae542e6305ab331dc327d09e69c",
+  "size": 1691882,
   "notes": [
-    "A Learnings tab: everything the team has taught the app about the PeoplesHR code, filterable by module and searchable.",
-    "Add a learning by hand; it goes to the shared shelf straight away (or with the next update if you are offline).",
-    "Correct one: the old wording stays on the shelf with who changed it; if someone changed it while you were reading, you see their version.",
-    "Retire one that is wrong or out of date, with a reason; it stops reaching runs but stays visible.",
-    "The shelf moved to its own place, PeoplesHR-Learnings; your existing learnings move across on their own."
+    "Learnings tab: the module dropdowns and the search and form boxes now follow your theme.",
+    "Pick a module from the list, or choose \"New module…\" to type one."
   ]
 }
