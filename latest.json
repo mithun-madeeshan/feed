@@ -1,17 +1,16 @@
 {
-  "version": "0.10.0",
+  "version": "0.11.0",
   "kind": "app",
-  "released": "2026-10-02",
+  "released": "2026-10-03",
   "minVersion": "0.9.0",
-  "payload": "payloads/0.10.0.bin",
-  "sha256": "66c8b4be1a6212c493e3aacb13baab912063a70a986b070fad68ed920a48a712",
-  "size": 1684435,
+  "payload": "payloads/0.11.0.bin",
+  "sha256": "e1823f383dc3f73ee032938997996b9945cc31ff8361922100df98ddc06d84a3",
+  "size": 1691560,
   "notes": [
-    "Ships everything it uses: the module experts (Probation, TND, Recruitment, any-repo router), the self-review agents and the Probation + TND maps.",
-    "Ships phr-autotester, hrm-test-autorunner and flowchart-house-style, so Dev testing and diagrams work on any machine.",
-    "The procedures now carry their own settings (wiki pages, skip lists, palette) — 0.9.0 left them out.",
-    "SQL standards are invoked, not remembered: the table/column checker must pass before the SQL gate; the exception framework is asked once per release line.",
-    "The Bug Fixer's engineering rules in both procedures: dep.xml, labels and localisations, byte-precise edits, the build harness, sandbox and database rules.",
-    "No Update-skill button: a newer skill replaces yours automatically and keeps your own settings."
+    "A Learnings tab: everything the team has taught the app about the PeoplesHR code, filterable by module and searchable.",
+    "Add a learning by hand; it goes to the shared shelf straight away (or with the next update if you are offline).",
+    "Correct one: the old wording stays on the shelf with who changed it; if someone changed it while you were reading, you see their version.",
+    "Retire one that is wrong or out of date, with a reason; it stops reaching runs but stays visible.",
+    "The shelf moved to its own place, PeoplesHR-Learnings; your existing learnings move across on their own."
   ]
 }
